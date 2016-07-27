@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "D:/workzone/testzone/NdkDemo/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\software\\Android\\android_sdk\\cmake\\bin\\cmake.exe --build D:\\workzone\\testzone\\NdkDemo\\app\\externalNativeBuild\\cmake\\release\\armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native-lib",
+			"buildCommand" : "D:\\software\\Android\\android_sdk\\cmake\\bin\\cmake.exe --build D:\\workzone\\testzone\\NdkDemo\\app\\externalNativeBuild\\cmake\\release\\armeabi --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -DANDROID -Dnative_lib_EXPORTS -isystem D:\\software\\Android\\android-ndk-r10e\\platforms\\android-15\\arch-arm\\usr\\include -isystem D:\\software\\Android\\android-ndk-r10e\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\Android\\android-ndk-r10e\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem D:\\software\\Android\\android-ndk-r10e\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -fexceptions -frtti -fpic -Wno-psabi --sysroot=D:/software/Android/android-ndk-r10e/platforms/android-15/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fdata-sections -ffunction-sections -Wa,--noexecstack -frtti -fexceptions -llog -ljnigraphics -mthumb -fomit-frame-pointer -fno-strict-aliasing -O3 -DNDEBUG      ",
+					"src" : "D:/workzone/testzone/NdkDemo/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "D:/workzone/testzone/NdkDemo/app/externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "D:/workzone/testzone/NdkDemo/app/build/intermediates/cmake/release/obj/armeabi/libnative-lib.so",
+			"toolchain" : "4085916259"
+		}
+	},
+	"toolchains" : 
+	{
+		"4085916259" : 
+		{
+			"cCompilerExecutable" : "D:/software/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/arm-linux-androideabi-gcc.exe",
+			"cppCompilerExecutable" : "D:/software/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/bin/arm-linux-androideabi-g++.exe"
+		}
+	}
+}

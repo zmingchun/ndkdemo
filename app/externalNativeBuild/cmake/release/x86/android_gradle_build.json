@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "D:/workzone/testzone/NdkDemo/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\software\\Android\\android_sdk\\cmake\\bin\\cmake.exe --build D:\\workzone\\testzone\\NdkDemo\\app\\externalNativeBuild\\cmake\\release\\x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "native-lib",
+			"buildCommand" : "D:\\software\\Android\\android_sdk\\cmake\\bin\\cmake.exe --build D:\\workzone\\testzone\\NdkDemo\\app\\externalNativeBuild\\cmake\\release\\x86 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -DANDROID -Dnative_lib_EXPORTS -isystem D:\\software\\Android\\android-ndk-r10e\\platforms\\android-15\\arch-x86\\usr\\include -isystem D:\\software\\Android\\android-ndk-r10e\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\Android\\android-ndk-r10e\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\software\\Android\\android-ndk-r10e\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -fexceptions -frtti -fpic --sysroot=D:/software/Android/android-ndk-r10e/platforms/android-15/arch-x86 -funwind-tables -funswitch-loops -finline-limit=300 -fsigned-char -no-canonical-prefixes -fdata-sections -ffunction-sections -Wa,--noexecstack -frtti -fexceptions -llog -ljnigraphics -fomit-frame-pointer -fstrict-aliasing -O3 -DNDEBUG      ",
+					"src" : "D:/workzone/testzone/NdkDemo/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "D:/workzone/testzone/NdkDemo/app/externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "D:/workzone/testzone/NdkDemo/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
+			"toolchain" : "2680025275"
+		}
+	},
+	"toolchains" : 
+	{
+		"2680025275" : 
+		{
+			"cCompilerExecutable" : "D:/software/Android/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/i686-linux-android-gcc.exe",
+			"cppCompilerExecutable" : "D:/software/Android/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64/bin/i686-linux-android-g++.exe"
+		}
+	}
+}
