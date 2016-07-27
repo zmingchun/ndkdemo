@@ -38,3 +38,16 @@ captures/
 
 # Keystore files
 *.jks
+
+/.idea/libraries
+.DS_Store
+/captures
+.externalNativeBuild
+.idea/compiler.xml
+.idea/copyright/
+.idea/encodings.xml
+.idea/gradle.xml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/runConfigurations.xml
